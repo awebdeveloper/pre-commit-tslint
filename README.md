@@ -11,6 +11,7 @@ For Tslint: see https://github.com/palantir/tslint
 ### Using Tslint with pre-commit
 
 Add this to your `.pre-commit-config.yaml`:
+```yaml
 
     -   repo: git://github.com/awebdeveloper/pre-commit-tslint/
         sha: ''  # Use the sha or tag you want to point at
@@ -18,11 +19,11 @@ Add this to your `.pre-commit-config.yaml`:
         -   id: tslint
             additional_dependencies: ['tslint@5.0.0']
         
-        
+ ```       
    To use with ```tslint-eslint-rules``` include it as additional_dependencies
 
    To check type or if linter complaints of type (but this will slow down your commit)
-``` 
+```yaml
      hooks:
         -   id: tslint
             args: ['--project','tsconfig.json','--type-check']
