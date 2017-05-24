@@ -1,7 +1,7 @@
-TSlint for pre-commit
+Pre-commit hook for TSlint
 ========================
 
-This is the TSlint config/plugin for [pre-commit](https://github.com/pre-commit/pre-commit). This prevents git commits unless the checks pass. 
+This is the TSlint hook for [pre-commit](https://github.com/pre-commit/pre-commit). This prevents git commits unless the checks pass. 
 
 
 ### Usage
