@@ -2,7 +2,7 @@
     name: tslint
     entry: tslint
     language: node
-    files: \.(ts)$
+    files: \.(ts|tsx)$
     args: []
 
 
