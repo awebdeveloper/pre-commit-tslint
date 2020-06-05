@@ -19,6 +19,8 @@ Finally add this to your `.pre-commit-config.yaml`:
         -   id: tslint
             additional_dependencies: ['tslint@5.0.0']
  ```
+PS: These are for version 2.3.0 visit https://pre-commit.com/#2-add-a-pre-commit-configuration for latest config syntax or for config syntax specific to your version
+
  
  Now everytime you commit a ts file. It will run tslint on this and prevent commit if the checks fail.
  
