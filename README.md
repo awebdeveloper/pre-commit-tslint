@@ -14,7 +14,7 @@ Finally add this to your `.pre-commit-config.yaml`:
 
 ```yaml
     -   repo: git://github.com/awebdeveloper/pre-commit-tslint/
-        sha: ''  # Use the sha or tag you want to point at
+        rev: ''  # Use the sha or tag you want to point at
         hooks:
         -   id: tslint
             additional_dependencies: ['tslint@5.0.0']
